@@ -1,0 +1,16 @@
+{
+  "name": "google news scraper",
+  "version": "1.1",
+  "description": "google news scraper",
+  "permissions": [
+     "storage"
+  ],
+  "browser_action": {
+      "default_title": "test",
+      "default_icon": "ic_file_download_black_24dp_1x.png",
+      "default_popup": "popup.html"
+  },
+  "manifest_version": 2,
+  "content_security_policy": "script-src 'self' https://ajax.googleapis.com; object-src 'self'"
+}
+
