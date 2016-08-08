@@ -1,2 +1,1 @@
-
-document.write("test2");
+chrome.extension.getBackgroundPage().console.log('foofoo');
