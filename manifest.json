@@ -11,9 +11,9 @@
 
   "browser_action" : {
       "default_title": "test",
-      "default_icon": "ic_file_download_black_24dp_1x.png",
-      "default_popup": "popup.html"
+      "default_icon": "ic_file_download_black_24dp_1x.png"
   },
+  
   "manifest_version": 2,
   "content_security_policy": "script-src 'self'; object-src 'self'"
 }
