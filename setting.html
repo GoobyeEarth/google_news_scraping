@@ -2,9 +2,69 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Google News Scraping - Settings</title>
+    <link rel="shortcat icon" href="ic_file_download_black_24dp_1x.png">
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="setting.css">
 </head>
 <body>
 
+    <!--start stop-->
+    <!--config-->
+    <!--url formings-->
+    <!--folder input-->
+    <div class="jumbotron text-center">
+        <h1>Google News Scraping - Settings</h1>
+    </div><!--jumbotron text-center-->
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-sm-12 controller">
+                <h2>Controller</h2>
+
+                <button type="button" id="startButton" class="btn btn-lg btn-primary">Start</button>
+                <button type="button" id="stopButton" class="btn btn-lg btn-secondary">Stop</button>
+
+            </div><!--col-lg-6 col-sm-12 controller-->
+
+            <div class="col-lg-6 col-sm-12 config">
+                <h2>Config</h2>
+                    <ul>
+                        <li>Directory <input class="form-control" type="text" value="" title="filename"></li>
+
+                    </ul>
+            </div><!--col-lg-6 col-sm-12-->
+
+            <div class="col-lg-12 sites">
+                <h2>Sites</h2>
+
+                <table>
+                    <colgroup>
+                        <col width="*">
+                        <col width="30%">
+                        <col width="70%">
+                    </colgroup>
+
+                    <tr>
+                       <th>FileName</th>
+                        <th>URL</th>
+                    </tr>
+                    <tr>
+                        <td>1.</td>
+                        <td><input class="form-control" type="text" value="" title="filename"></td>
+                        <td><input class="form-control" type="url" value="" title="url"></td>
+                    </tr>
+                    <tr>
+                        <td>2.</td>
+                        <td><input class="form-control" type="text" value="" title="filename"></td>
+                        <td><input class="form-control" type="url" value="" title="url"></td>
+                    </tr>
+                </table>
+
+            </div><!--col-lg-12-->
+        </div><!--row-->
+
+    </div><!--container-->
 </body>
 </html>
